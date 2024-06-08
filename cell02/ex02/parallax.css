@@ -1,0 +1,41 @@
+*{
+    border: none;
+    margin: 0%;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#um {
+    background-image: url('cutedog.jpeg');
+}
+
+#dois {
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#tres {
+    background-image: url('pidao.jpg');
+}

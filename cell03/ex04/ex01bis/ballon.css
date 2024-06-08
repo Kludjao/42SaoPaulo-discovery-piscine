@@ -1,0 +1,19 @@
+.pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ballon {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+}
+
+.ballon:hover {
+    cursor: pointer;
+    height: 195px;
+    width: 195px;
+}

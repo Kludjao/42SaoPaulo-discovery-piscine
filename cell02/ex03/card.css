@@ -1,0 +1,54 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table{
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.nome {
+    font-size: large;
+    font-weight: bold;
+}
+
+.level {
+    font-weight: lighter;
+    font-size: 75%;
+    color: gray;
+}
+
+.escola {
+    font-size:60%;
+}
+
+button{
+    border:none;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding-bottom: 4px;
+
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

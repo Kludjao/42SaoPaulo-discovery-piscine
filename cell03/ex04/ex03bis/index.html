@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex03</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<style>
+
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    button {
+        width: 50%;
+        padding: 10px;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        margin-top: 50px;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: #00eeff;
+    }
+
+    .lista {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        padding: 20px; 
+        max-width: 500px;
+        margin: 0 auto;
+        border-radius: 15px;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    }
+
+    #ft_list {
+        text-align: center;
+    }
+
+    #ft_list div {
+        margin: 10px;
+        background-color: #00eeff;
+        max-width: 500px;
+        min-width: 300px;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        padding: 10px;
+        overflow:hidden;
+    }
+
+    #ft_list div:hover {
+        background-color: #6ff2fc;
+    }
+
+</style>
+
+<body>
+    <div class="lista">
+        <h1 style="margin-bottom: 50px; margin-top: 1px;">TAREFAS</h1>
+
+        <div id="ft_list">
+
+        </div>
+        
+        <button>Adicionar Tarefa</button>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
